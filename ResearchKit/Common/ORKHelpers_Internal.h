@@ -231,9 +231,11 @@ PerformCall; \
 _Pragma("clang diagnostic pop") \
 } while (0)
 
+UIFont *ORKBoldFontWithSize(CGFloat size);
 UIFont *ORKThinFontWithSize(CGFloat size);
 UIFont *ORKLightFontWithSize(CGFloat size);
 UIFont *ORKMediumFontWithSize(CGFloat size);
+UIFont *ORKDefaultFontWithSize(CGFloat size);
 
 NSURL *ORKURLFromBookmarkData(NSData *data);
 NSData *ORKBookmarkDataFromURL(NSURL *url);

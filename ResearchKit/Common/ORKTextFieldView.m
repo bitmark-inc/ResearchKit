@@ -162,7 +162,7 @@ static NSString *const FilledBulletString = @"\u25CF";
 
 - (id)ork_createTextLabelWithTextColor:(UIColor *)textColor {
     UILabel *textLabel = [[UILabel alloc] initWithFrame:CGRectZero];
-    textLabel.font = [UIFont systemFontOfSize:17];
+    textLabel.font = ORKDefaultFontWithSize(17);
     [textLabel setOpaque:NO];
     [textLabel setBackgroundColor:nil];
     textLabel.contentMode = UIViewContentModeRedraw;
